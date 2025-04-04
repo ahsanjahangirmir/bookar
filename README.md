@@ -1,5 +1,10 @@
 # BooKar
 
+© 2024 [Ahsan J Mir]. All rights reserved.
+
+This code is provided for **viewing purposes only**.
+You may not copy, modify, distribute, or use it in any way without explicit written permission.
+
 Welcome to the BookKar App, your go-to solution for managing your leisure bookings seamlessly. Built with React Native, BookKar offers a user-friendly interface and a smooth experience across both iOS and Android platforms.
 
 # Features
