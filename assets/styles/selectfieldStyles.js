@@ -1,0 +1,125 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#00170C',
+      paddingHorizontal: 20,
+      paddingTop: 40,
+    },
+    header: {
+      marginTop: 20,
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+    backArrow: {
+      width: 28,
+      height: 28,
+      marginRight: 10,
+    },
+    headerText: {
+      color: '#C4C4C4',
+      fontSize: 24,
+      fontFamily: 'UrbanistBold',
+    },
+    row: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      marginTop: 20,
+    },
+    selectServiceText: {
+      color: '#C4C4C4',
+      fontSize: 17,
+      fontFamily: 'UrbanistBold',
+      marginRight: 10,
+      marginLeft: 40,
+      marginTop: 20,
+      marginBottom: 10,
+    },
+    selectFieldText: {
+      color: '#C4C4C4',
+      fontSize: 17,
+      fontFamily: 'UrbanistBold',
+      marginRight: 10,
+      marginLeft: 40,
+      marginTop: 20,
+      marginBottom: 10,
+    },
+    button: {
+      width: 183,
+      height: 50,
+      backgroundColor: 'rgba(133, 57, 2, 0.75)',
+      justifyContent: 'center',
+      alignItems: 'center',
+      borderRadius: 10,
+      marginLeft: 100,
+    },
+    buttonText: {
+      color: '#C4C4C4',
+      fontSize: 16,
+      fontFamily: 'UrbanistBold',
+    },
+    centeredView: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    },
+    modalView: {
+      margin: 20,
+      backgroundColor: 'white',
+      borderRadius: 10,
+      padding: 35,
+      alignItems: 'center',
+    },
+    closeButton: {
+      position: 'absolute',
+      top: 10,
+      left: 10,
+    },
+    serviceOption: {
+      marginBottom: 20,
+      padding: 10,
+      backgroundColor: '#DDDDDD',
+      borderRadius: 5,
+      width: 200,
+      alignItems: 'center',
+    },
+    serviceOptionText: {
+      fontSize: 16,
+      fontFamily: 'UrbanistRegular',
+    },
+    fieldOption: {
+      marginBottom: 20,
+      padding: 10,
+      backgroundColor: '#DDDDDD',
+      borderRadius: 5,
+      width: 200,
+      alignItems: 'center',
+    },
+    fieldOptionText: {
+      fontSize: 16,
+      fontFamily: 'UrbanistRegular',
+    },
+    bottomButtonContainer: {
+      flex: 1,
+      justifyContent: 'flex-end',
+      marginBottom: 36,
+      alignItems: 'center',
+    },
+    continueButton: {
+      backgroundColor: '#d45a01',
+      borderRadius: 25,
+      paddingHorizontal: 40,
+      paddingVertical: 15,
+      width: 328,
+      height: 53,
+    },
+    continueButtonText: {
+      color: '#C4C4C4',
+      fontFamily: 'UrbanistSemiBold',
+      fontSize: 17,
+      textAlign: 'center', 
+    },
+  });
+  
